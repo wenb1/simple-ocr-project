@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+    <title>OCR Simple Letters</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <h1>Please select the image you want to upload:</h1>
+
+    <form method="post" enctype="multipart/form-data" action="{% url 'ocr_letters:add' %}">
+        {% csrf_token %}
+        {{ af.as_p }}
+        <input type="submit" value="Submit"/>
+    </form>
+</body>
+</html>
