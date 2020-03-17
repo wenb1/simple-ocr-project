@@ -114,11 +114,11 @@ python3 manage.py test ocr_letters
 ```sh
 python3 manage.py runserver
 ```
-(1) Create a database named **simple_ocr_letters**
-(2) Change the MySQL database name and password in settings.py
-(1) Open the web broswer and type http://127.0.0.1:8000/img/add/ in the address bar
-(2) Upload the image and type the name
-(3) Click submit and check the result from database
+1. Create a database named **simple_ocr_letters**
+2. Change the MySQL database name and password in settings.py
+3. Open the web broswer and type http://127.0.0.1:8000/img/add/ in the address bar
+4. Upload the image and type the name
+5. Click submit and check the result from database
 
 <!-- LICENSE -->
 ## License
