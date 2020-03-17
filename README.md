@@ -6,16 +6,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
-
-
-<!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <h3 align="center">Simple OCR Project</h3>
@@ -89,7 +80,7 @@ git clone https://github.com/wenb1/simpleocrproject.git
 pip3 install django
 ```
 
-3. Install Pytesseract which is a OCR library
+3. Install Pytesseract which is an OCR library
 ```sh
 pip3 install pytesseract
 ```
